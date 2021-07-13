@@ -1,0 +1,19 @@
+main>.container {
+  padding: 60px 15px 0;
+}
+
+a {
+  color: #88909e;
+}
+
+a:hover {
+  color: violet;
+  text-decoration: underline;
+}
+
+.alist{
+  color: #7e97bf;
+}
+.alist:hover{
+  color: violet;
+}
