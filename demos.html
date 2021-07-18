@@ -12,13 +12,26 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link href="/css/style.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
+
+    <!-- Google Fonts Racing Sans One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="d-flex flex-column h-100 ">
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Kyle's Homepage</a>
+            <a class="navbar-brand logoFont" href="#"><img src="./Images/kg.webp" class="d-inline-block align-text-top" width="30" height="24">Kyle's Homepage</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -72,9 +85,25 @@
         </div>
     </main>
 
-    <footer class="footer mt-auto py-3 bg-dark">
-        <div class="container-fluid text-center">
-            <span class="text-muted">&copy; 2021 - Kyle Givler</span>
+    <!-- Footer Section -->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-lg-3 gy-2">
+                <div class="col text-light order-last order-lg-first">
+                    <div>
+                        <span class="text-muted">&copy;2021</span> Kyle Givler | <a class="alight" href="https://kgivler.com">kgivler.com</a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-start justify-content-lg-center">
+                    <img src="./Images/kyle.webp" alt="Kyle Givler Logo" height="24">
+                </div>
+                <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
+                    <div class="row">
+                        <div class="col social"><a href="https://www.linkedin.com/in/kyle-givler/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://github.com/joyfulreaper" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
